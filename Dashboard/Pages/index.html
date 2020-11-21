@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Assets/css/index.css">
+</head>
+
+
+<body>
+    
+<!--------------Navbar------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+    
+<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <li class="nav-item active">
+    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <li class="nav"></li>
+    <a class="nav-link" href="comparisons.html">Compare </a>
+    <li class="nav"></li>
+    <a class="nav-link" href="data.html">Data</a>
+    <li class="nav"></li>
+    <a class="nav-link" href="resources.html">Resources </a>
+    </li>
+          
+<div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Plots </a>
+          
+<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="quick_facts.html">Quick Facts</a>
+    <a class="dropdown-item" href="viz_1.html">Percentages</a>
+    <a class="dropdown-item" href="viz_2.html">Rates</a>
+    <a class="dropdown-item" href="viz_3.html">Weapon Status</a>
+    <a class="dropdown-item" href="viz_4.html">Race & Weaon Status</a>
+    </div>
+    </li>   
+    </div>
+    </div>
+    </div>
+</nav>
+
+<!-----------Jumbotron Header----------->
+ <div class="jumbotron">
+ <div class="container-fluid">
+   <center><h1>Fatal Police Shootings in the United States (From 2015 to 2020)</h1></center> 
+    <br>
+    <p class="text-justify"><b>About The Site</b>: The topic of police officers' use-of-force and race have been prominent in the media over the last few years, rightfully so. 
+        Breonna Taylor, George Floyd, and Philando Castille (just to name a few); these names bring about many emotions. Why were these individuals killed by police officers? Is it because they were black?
+        This website takes a brief look at this question. Are black people more likely to be shot and killed by cops? 
+
+        I present just a few analyses and visualizations on fatal police shootings in the United States. The analyses focus on the roles of victim race and weapon status. The data used were collected by the WashingtonPost.
+        This is just the tip of the iceberg when it comes to using data to address this topic. There's still plenty of data to look at and analyze. 
+        
+    </p>
+    <br>
+    
+    <img src="/Users/nicolemuscanell/UCF-11-HTML-CSS/Dashboard/Assets/Images/200623USWashingtonDCBlackLivesMatterPlaza-TedyEytan.jpg" class="responsive" />
+</div>
+
+<!-----------Visulization Links--------->
+<div class="container-fluid">
+<div class="card-deck">
+
+<div class="card mb-4">
+    <a href="viz_1.html" target="_blank"><img class="card-img-top img-fluidd" src="../Assets/Images/viz_1.jpg" alt="Plot 1"></a>
+    <div class="card-body">
+    <h4 class="card-title">Fatal Police Shootings by Victim Race (Percentages)</h4>
+    <p class="card-text">This graph displays the fatality percentages for victims of police shootings by race.</p>
+    </div>
+</div>
+            
+<div class="card mb-4">
+    <a href="viz_2.html" target="_blank"><img class="card-img-top img-fluid" src="../Assets/Images/viz_2.jpg" alt="Plot 2"></a>
+    <div class="card-body">
+    <h4 class="card-title">Fatal Police Shootings by Victim Race (Rate Ratios)</h4>
+    <p class="card-text">This graph displays the rate of fatalities for victims of police shoottings based on rate.<i class="fas fa-itunes-note    "></i>.</p>
+    </div>
+</div>
+            
+<div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+<div class="card mb-4">
+    <a href="viz_3.html" target="_blank"><img class="card-img-top img-fluid" src="../Assets/Images/viz_3.jpg" alt="Plot 3"></a>
+    <div class="card-body">
+    <h4 class="card-title">Fatal Police Shootings by Victim Weapon Status</h4>
+    <p class="card-text">This graph displays the fatality percentages based on the weapon status of the victim.</p>
+    </div>
+</div>
+            
+<div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+<div class="card mb-4">
+    <a href="viz_4.html" target="_blank"><img class="card-img-top img-fluid" src="../Assets/Images/viz_4.jpg" alt="Plot 4"></a>
+    <div class="card-body">
+    <h4 class="card-title">Fatal Police Shootings Based on Weapon Status For Black and White Victims</h4>
+    <p class="card-text">This graph displays the fatality percentages based on the weapon status of black and white victims.</p>
+    </div>
+</div>
+</div>
+  
+<!------------JS and Jquery------------->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.navbar {
+    font-size: 20px;
+}
+  
+.dropdown {
+    font-size: 28px;
+}
+  
+.dropdown-menu {
+    font-size: 20px;
+
+}
+
+.thead-dark{
+    color:darkgray
+}
+
+.table-hover{
+    background-color: lightgray;
+}
+
+.table-striped{
+    background-color:snow;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  border: 1px solid #ddd;
+}
+
+p{
+    font-size: 18px;
+  }
+  
+  h1{
+    font-size: 45px;
+  }

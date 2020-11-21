@@ -1,0 +1,27 @@
+.navbar {
+  font-size: 20px;
+}
+
+.dropdown {
+  font-size: 28px;
+}
+.dropdown-menu {
+  font-size: 20px;
+}
+  
+p{
+  font-size: 18px;
+}
+  
+h1{
+  font-size: 45px;
+}
+
+.card-title{
+  font-size: 25px;
+  font-weight: bolder;
+}
+  
+.card-text{
+  font-size: 20px;
+}

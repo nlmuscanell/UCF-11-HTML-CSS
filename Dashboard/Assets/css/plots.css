@@ -1,0 +1,23 @@
+.navbar {
+    font-size: 20px;
+  }
+  
+  .dropdown {
+    font-size: 28px;
+  }
+  .dropdown-menu {
+    font-size: 20px;
+  }
+
+  img{
+    height: 100%;
+    width: 90%
+  }
+
+  p{
+    font-size: 18px;
+  }
+  
+  h1{
+    font-size: 45px;
+  }
